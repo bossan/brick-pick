@@ -9,6 +9,10 @@ colour id and bricks is how many parts of the set have that colour, spares exclu
 Transparent colours are dropped because the camera cannot read them.
 
 Re-run to pick up newly released sets, then rebuild the app.
+
+Rebrickable offers these dumps free for personal and commercial use, provided it is
+acknowledged as the data source, and asks that automated downloads run at most once a
+day. Pass --cache to reuse files you have already downloaded.
 """
 import argparse
 import collections
