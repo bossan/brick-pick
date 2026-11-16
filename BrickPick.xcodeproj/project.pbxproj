@@ -19,6 +19,7 @@
 		74DA60831B151EBDBC5342F3 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079FE9063D048F01829F7303 /* Scanner.swift */; };
 		A443F6ABEC3CF73977DC048B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6025FA72C5D09C4CADE2E8 /* ContentView.swift */; };
 		BA353E7F7F3A41A8A815130F /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD05D81D5564EA35696BEAB /* Camera.swift */; };
+		CB3D0F879A5CEE777D280C70 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D0D567CAFD10147052099044 /* LICENSE */; };
 		CE909966BC2C6A1353DB10FA /* sets.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 75931B5C2D3C4D25A1403421 /* sets.tsv */; };
 		F1E4659720108827A72559EA /* LegoColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA422F6A5E531BB5BD931B2 /* LegoColor.swift */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,7 @@
 		8D981C091D0190004DF247A3 /* ColorMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMatcher.swift; sourceTree = "<group>"; };
 		9C59EA836020DF847DA6AD35 /* FrameAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAnalyzer.swift; sourceTree = "<group>"; };
 		ADD05D81D5564EA35696BEAB /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		D0D567CAFD10147052099044 /* LICENSE */ = {isa = PBXFileReference; path = LICENSE; sourceTree = "<group>"; };
 		DAA422F6A5E531BB5BD931B2 /* LegoColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegoColor.swift; sourceTree = "<group>"; };
 		ED976357AAB27D04C4537C08 /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
 		EE0D42AE20A17B5517F72108 /* BrickPick.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BrickPick.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +66,7 @@
 		17B8D82443D4C570AA1C921A = {
 			isa = PBXGroup;
 			children = (
+				D0D567CAFD10147052099044 /* LICENSE */,
 				DC362FBAC8390432ADFB8C2F /* BrickPick */,
 				16E28A2FC974FB67DE7324A9 /* BrickPickTests */,
 				3673854EE4ACDE0E5AF432F6 /* Products */,
@@ -191,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				133DAFF395ABF2AFFEAE89FE /* Assets.xcassets in Resources */,
+				CB3D0F879A5CEE777D280C70 /* LICENSE in Resources */,
 				09EB70C9D78D3F05BB15E7C1 /* colors.tsv in Resources */,
 				CE909966BC2C6A1353DB10FA /* sets.tsv in Resources */,
 			);

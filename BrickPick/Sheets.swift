@@ -185,6 +185,9 @@ struct HelpView: View {
                         }
                     }
                 }
+                Section {
+                    NavigationLink("About BrickPick") { AboutView() }
+                }
             }
             .navigationTitle("How it works")
             .navigationBarTitleDisplayMode(.inline)
@@ -206,5 +209,61 @@ struct HelpView: View {
             Image(systemName: systemImage)
         }
         .padding(.vertical, 4)
+    }
+}
+
+/// Who made the app, where its data comes from and how it is licensed.
+struct AboutView: View {
+    private static let sourceURL = URL(string: "https://github.com/bossan/brick-pick")!
+    private static let rebrickableURL = URL(string: "https://rebrickable.com")!
+
+    private var version: String {
+        Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? ""
+    }
+
+    var body: some View {
+        List {
+            Section {
+                LabeledContent("Version", value: version)
+                LabeledContent("Made by", value: "Sander Bos")
+                Link("Source code on GitHub", destination: AboutView.sourceURL)
+            } footer: {
+                Text("BrickPick is a free hobby project, made to help colour-blind builders find the right brick.")
+            }
+            Section("Not a LEGO product") {
+                Text("LEGO® is a trademark of the LEGO Group, which does not sponsor, authorise or endorse this app.")
+            }
+            Section("Data") {
+                Text("Colour names, colour values and the parts lists of sets come from the Rebrickable catalogue. Thank you, Rebrickable.")
+                Link("rebrickable.com", destination: AboutView.rebrickableURL)
+            }
+            Section("Privacy") {
+                Text("BrickPick does not connect to the internet. Camera images are analysed on your iPhone and are never stored or sent anywhere.")
+            }
+            Section("Licence") {
+                Text("BrickPick is open source under the MIT licence.")
+                NavigationLink("Licence text") { LicenceView() }
+            }
+        }
+        .navigationTitle("About")
+        .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+private struct LicenceView: View {
+    /// The repository's LICENSE file, bundled with the app.
+    private var text: String {
+        Bundle.main.url(forResource: "LICENSE", withExtension: nil)
+            .flatMap { try? String(contentsOf: $0, encoding: .utf8) } ?? ""
+    }
+
+    var body: some View {
+        ScrollView {
+            Text(text)
+                .font(.footnote.monospaced())
+                .padding()
+        }
+        .navigationTitle("Licence")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }

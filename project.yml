@@ -14,7 +14,10 @@ targets:
   BrickPick:
     type: application
     platform: iOS
-    sources: [BrickPick]
+    sources:
+      - BrickPick
+      - path: LICENSE
+        buildPhase: resources
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: dev.bossan.BrickPick

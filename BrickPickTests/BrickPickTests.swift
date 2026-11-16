@@ -106,6 +106,13 @@ struct MatchingTests {
     }
 }
 
+struct BundleTests {
+    @Test func licenceIsBundled() throws {
+        let url = try #require(Bundle.main.url(forResource: "LICENSE", withExtension: nil))
+        #expect(try String(contentsOf: url, encoding: .utf8).hasPrefix("MIT License"))
+    }
+}
+
 struct SetTests {
     @Test func bundledColoursLoad() {
         #expect(LegoColor.all.count > 150)
