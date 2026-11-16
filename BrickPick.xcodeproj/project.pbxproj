@@ -38,6 +38,7 @@
 		03E31D60643C3EAFA0541697 /* BrickPickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickPickApp.swift; sourceTree = "<group>"; };
 		079FE9063D048F01829F7303 /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
 		15D57DFDFE75EFE484FB6104 /* BrickPickTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = BrickPickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E258CF7200D1EAAE9966B9E /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
 		4506D6DA5F7BF8C786043F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D6025FA72C5D09C4CADE2E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		63F0D67E24920FC53317AB53 /* colors.tsv */ = {isa = PBXFileReference; path = colors.tsv; sourceTree = "<group>"; };
@@ -69,6 +70,7 @@
 				D0D567CAFD10147052099044 /* LICENSE */,
 				DC362FBAC8390432ADFB8C2F /* BrickPick */,
 				16E28A2FC974FB67DE7324A9 /* BrickPickTests */,
+				873F3B47E957AC2045FDFE0D /* Config */,
 				3673854EE4ACDE0E5AF432F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +91,14 @@
 				75931B5C2D3C4D25A1403421 /* sets.tsv */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		873F3B47E957AC2045FDFE0D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1E258CF7200D1EAAE9966B9E /* Base.xcconfig */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 		DC362FBAC8390432ADFB8C2F /* BrickPick */ = {
@@ -253,7 +263,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.bossan.BrickPick;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).BrickPick";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -261,6 +271,7 @@
 		};
 		A4EBA415626C3AE15FAD039D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E258CF7200D1EAAE9966B9E /* Base.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -296,7 +307,6 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -336,7 +346,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.bossan.BrickPickTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).BrickPickTests";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrickPick.app/BrickPick";
@@ -357,7 +367,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.bossan.BrickPick;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).BrickPick";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -365,6 +375,7 @@
 		};
 		BA158D5D116E725FFD7579AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E258CF7200D1EAAE9966B9E /* Base.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -400,7 +411,6 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -433,7 +443,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.bossan.BrickPickTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).BrickPickTests";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrickPick.app/BrickPick";

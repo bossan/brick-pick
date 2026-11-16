@@ -42,10 +42,12 @@ stored, and the set data ships inside the app.
 
 Requirements: Xcode 16 or later, an iPhone on iOS 18 or later.
 
-1. Open `BrickPick.xcodeproj`.
-2. Under *Signing & Capabilities*, choose your own team and bundle identifier.
-3. Run on an iPhone. The simulator has no camera, so there the app shows a fixed test
-   scene of colour swatches instead.
+1. Copy `Config/Local.example.xcconfig` to `Config/Local.xcconfig` and fill in your Apple
+   Team ID and a bundle ID prefix. That file is ignored by git.
+2. Open `BrickPick.xcodeproj` and run on an iPhone.
+
+The simulator needs no signing set-up, but it has no camera, so there the app shows a
+fixed test scene of colour swatches instead.
 
 The Xcode project is generated from `project.yml` with
 [XcodeGen](https://github.com/yonaskolb/XcodeGen). After changing `project.yml` or adding

@@ -1,0 +1,8 @@
+// Copy to Local.xcconfig and fill in your own details.
+
+// Your Apple developer Team ID: ten characters, shown under Membership at
+// developer.apple.com/account, or in Xcode under Settings > Accounts.
+DEVELOPMENT_TEAM = ABCDE12345
+
+// Reverse-domain prefix you own; the app's bundle ID becomes <prefix>.BrickPick.
+BUNDLE_ID_PREFIX = com.yourname

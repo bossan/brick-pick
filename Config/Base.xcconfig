@@ -1,0 +1,8 @@
+// Signing settings. The defaults below let the app build for the simulator as is.
+// To run on an iPhone, copy Local.example.xcconfig to Local.xcconfig and fill it in;
+// that file is ignored by git, so your own details stay out of the repository.
+
+DEVELOPMENT_TEAM =
+BUNDLE_ID_PREFIX = com.example
+
+#include? "Local.xcconfig"
