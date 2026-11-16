@@ -1,0 +1,45 @@
+name: BrickPick
+options:
+  bundleIdPrefix: dev.bossan
+  deploymentTarget:
+    iOS: "18.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+targets:
+  BrickPick:
+    type: application
+    platform: iOS
+    sources: [BrickPick]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.bossan.BrickPick
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: BrickPick
+        INFOPLIST_KEY_NSCameraUsageDescription: BrickPick uses the camera to read the colour of LEGO bricks and manual pages.
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        TARGETED_DEVICE_FAMILY: "1"
+  BrickPickTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [BrickPickTests]
+    dependencies:
+      - target: BrickPick
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  BrickPick:
+    build:
+      targets:
+        BrickPick: all
+    run:
+      config: Debug
+    test:
+      targets: [BrickPickTests]

@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09EB70C9D78D3F05BB15E7C1 /* colors.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 63F0D67E24920FC53317AB53 /* colors.tsv */; };
+		133DAFF395ABF2AFFEAE89FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4506D6DA5F7BF8C786043F69 /* Assets.xcassets */; };
+		182CA3C001E77662C01161C4 /* LegoSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6251483756688FF62874FE /* LegoSet.swift */; };
+		220A5D1EC9D920B13678A22B /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED976357AAB27D04C4537C08 /* Sheets.swift */; };
+		2B9568689D4D014BB2AD61C1 /* FrameAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C59EA836020DF847DA6AD35 /* FrameAnalyzer.swift */; };
+		4AD5B73CF041F57A33E8C2E1 /* ColorMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C998B7827A35D44134B9491 /* ColorMath.swift */; };
+		560C277A4D88194FD5EF0833 /* BrickPickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5742907A3841E6309556CEB /* BrickPickTests.swift */; };
+		599D2E895A84F32EF46A2B4F /* ColorMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D981C091D0190004DF247A3 /* ColorMatcher.swift */; };
+		7248EEC629E3277E2A6A57AF /* BrickPickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E31D60643C3EAFA0541697 /* BrickPickApp.swift */; };
+		74DA60831B151EBDBC5342F3 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079FE9063D048F01829F7303 /* Scanner.swift */; };
+		A443F6ABEC3CF73977DC048B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6025FA72C5D09C4CADE2E8 /* ContentView.swift */; };
+		BA353E7F7F3A41A8A815130F /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD05D81D5564EA35696BEAB /* Camera.swift */; };
+		CE909966BC2C6A1353DB10FA /* sets.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 75931B5C2D3C4D25A1403421 /* sets.tsv */; };
+		F1E4659720108827A72559EA /* LegoColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA422F6A5E531BB5BD931B2 /* LegoColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E138E07ED6EEFE8562BF7472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91567DE3EA6C59A2BABF32A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED3955101560E6C8FEB4786E;
+			remoteInfo = BrickPick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E31D60643C3EAFA0541697 /* BrickPickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickPickApp.swift; sourceTree = "<group>"; };
+		079FE9063D048F01829F7303 /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
+		15D57DFDFE75EFE484FB6104 /* BrickPickTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = BrickPickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4506D6DA5F7BF8C786043F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D6025FA72C5D09C4CADE2E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63F0D67E24920FC53317AB53 /* colors.tsv */ = {isa = PBXFileReference; path = colors.tsv; sourceTree = "<group>"; };
+		75931B5C2D3C4D25A1403421 /* sets.tsv */ = {isa = PBXFileReference; path = sets.tsv; sourceTree = "<group>"; };
+		8C998B7827A35D44134B9491 /* ColorMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMath.swift; sourceTree = "<group>"; };
+		8D981C091D0190004DF247A3 /* ColorMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMatcher.swift; sourceTree = "<group>"; };
+		9C59EA836020DF847DA6AD35 /* FrameAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAnalyzer.swift; sourceTree = "<group>"; };
+		ADD05D81D5564EA35696BEAB /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		DAA422F6A5E531BB5BD931B2 /* LegoColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegoColor.swift; sourceTree = "<group>"; };
+		ED976357AAB27D04C4537C08 /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
+		EE0D42AE20A17B5517F72108 /* BrickPick.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BrickPick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5742907A3841E6309556CEB /* BrickPickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickPickTests.swift; sourceTree = "<group>"; };
+		FF6251483756688FF62874FE /* LegoSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegoSet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		16E28A2FC974FB67DE7324A9 /* BrickPickTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5742907A3841E6309556CEB /* BrickPickTests.swift */,
+			);
+			path = BrickPickTests;
+			sourceTree = "<group>";
+		};
+		17B8D82443D4C570AA1C921A = {
+			isa = PBXGroup;
+			children = (
+				DC362FBAC8390432ADFB8C2F /* BrickPick */,
+				16E28A2FC974FB67DE7324A9 /* BrickPickTests */,
+				3673854EE4ACDE0E5AF432F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3673854EE4ACDE0E5AF432F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE0D42AE20A17B5517F72108 /* BrickPick.app */,
+				15D57DFDFE75EFE484FB6104 /* BrickPickTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CC68232E1E1B8FEE57F2A6B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63F0D67E24920FC53317AB53 /* colors.tsv */,
+				75931B5C2D3C4D25A1403421 /* sets.tsv */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DC362FBAC8390432ADFB8C2F /* BrickPick */ = {
+			isa = PBXGroup;
+			children = (
+				4506D6DA5F7BF8C786043F69 /* Assets.xcassets */,
+				03E31D60643C3EAFA0541697 /* BrickPickApp.swift */,
+				ADD05D81D5564EA35696BEAB /* Camera.swift */,
+				8D981C091D0190004DF247A3 /* ColorMatcher.swift */,
+				8C998B7827A35D44134B9491 /* ColorMath.swift */,
+				5D6025FA72C5D09C4CADE2E8 /* ContentView.swift */,
+				9C59EA836020DF847DA6AD35 /* FrameAnalyzer.swift */,
+				DAA422F6A5E531BB5BD931B2 /* LegoColor.swift */,
+				FF6251483756688FF62874FE /* LegoSet.swift */,
+				079FE9063D048F01829F7303 /* Scanner.swift */,
+				ED976357AAB27D04C4537C08 /* Sheets.swift */,
+				4CC68232E1E1B8FEE57F2A6B /* Resources */,
+			);
+			path = BrickPick;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4054FBD289435A097816B5A /* BrickPickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7824259AB57C99C5E84EC574 /* Build configuration list for PBXNativeTarget "BrickPickTests" */;
+			buildPhases = (
+				EBA61F095BF1B395492A7466 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2634BF242170FB252C0B2BA2 /* PBXTargetDependency */,
+			);
+			name = BrickPickTests;
+			packageProductDependencies = (
+			);
+			productName = BrickPickTests;
+			productReference = 15D57DFDFE75EFE484FB6104 /* BrickPickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED3955101560E6C8FEB4786E /* BrickPick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA68269D7380A84E06DEB95C /* Build configuration list for PBXNativeTarget "BrickPick" */;
+			buildPhases = (
+				3CFFADAA658834E0D4882E90 /* Sources */,
+				892CEFFE01E0475348C0572C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrickPick;
+			packageProductDependencies = (
+			);
+			productName = BrickPick;
+			productReference = EE0D42AE20A17B5517F72108 /* BrickPick.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91567DE3EA6C59A2BABF32A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B4054FBD289435A097816B5A = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					ED3955101560E6C8FEB4786E = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D22D4856DACE0D8C7AC44E2E /* Build configuration list for PBXProject "BrickPick" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 17B8D82443D4C570AA1C921A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3673854EE4ACDE0E5AF432F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED3955101560E6C8FEB4786E /* BrickPick */,
+				B4054FBD289435A097816B5A /* BrickPickTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		892CEFFE01E0475348C0572C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133DAFF395ABF2AFFEAE89FE /* Assets.xcassets in Resources */,
+				09EB70C9D78D3F05BB15E7C1 /* colors.tsv in Resources */,
+				CE909966BC2C6A1353DB10FA /* sets.tsv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CFFADAA658834E0D4882E90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7248EEC629E3277E2A6A57AF /* BrickPickApp.swift in Sources */,
+				BA353E7F7F3A41A8A815130F /* Camera.swift in Sources */,
+				599D2E895A84F32EF46A2B4F /* ColorMatcher.swift in Sources */,
+				4AD5B73CF041F57A33E8C2E1 /* ColorMath.swift in Sources */,
+				A443F6ABEC3CF73977DC048B /* ContentView.swift in Sources */,
+				2B9568689D4D014BB2AD61C1 /* FrameAnalyzer.swift in Sources */,
+				F1E4659720108827A72559EA /* LegoColor.swift in Sources */,
+				182CA3C001E77662C01161C4 /* LegoSet.swift in Sources */,
+				74DA60831B151EBDBC5342F3 /* Scanner.swift in Sources */,
+				220A5D1EC9D920B13678A22B /* Sheets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA61F095BF1B395492A7466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560C277A4D88194FD5EF0833 /* BrickPickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2634BF242170FB252C0B2BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED3955101560E6C8FEB4786E /* BrickPick */;
+			targetProxy = E138E07ED6EEFE8562BF7472 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3713051EEBCEF61875FCF2E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BrickPick;
+				INFOPLIST_KEY_NSCameraUsageDescription = "BrickPick uses the camera to read the colour of LEGO bricks and manual pages.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bossan.BrickPick;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A4EBA415626C3AE15FAD039D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AC9F8269B1FF7F9BF620395F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bossan.BrickPickTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrickPick.app/BrickPick";
+			};
+			name = Debug;
+		};
+		B6FB12EFB787244A594F9FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BrickPick;
+				INFOPLIST_KEY_NSCameraUsageDescription = "BrickPick uses the camera to read the colour of LEGO bricks and manual pages.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bossan.BrickPick;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BA158D5D116E725FFD7579AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C851C292BBEDD34F773637C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bossan.BrickPickTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrickPick.app/BrickPick";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7824259AB57C99C5E84EC574 /* Build configuration list for PBXNativeTarget "BrickPickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9F8269B1FF7F9BF620395F /* Debug */,
+				C851C292BBEDD34F773637C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D22D4856DACE0D8C7AC44E2E /* Build configuration list for PBXProject "BrickPick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EBA415626C3AE15FAD039D /* Debug */,
+				BA158D5D116E725FFD7579AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FA68269D7380A84E06DEB95C /* Build configuration list for PBXNativeTarget "BrickPick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3713051EEBCEF61875FCF2E9 /* Debug */,
+				B6FB12EFB787244A594F9FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91567DE3EA6C59A2BABF32A3 /* Project object */;
+}
